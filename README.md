@@ -154,7 +154,7 @@ See **[CHANGELOG.md](CHANGELOG.md)**. Every update gets a new `0.x` version.
 
 Made by **7kcod** 🇧🇾 (solo dev)
 
-Built by 7kcod with help from Claude.
+Built by 7kcod
 
 Tier data from [MCTiers](https://mctiers.com). Cape images from LabyMod and OptiFine's public cape services.
 Not affiliated with Mojang, Lunar Client, LabyMod, OptiFine or MCTiers.
