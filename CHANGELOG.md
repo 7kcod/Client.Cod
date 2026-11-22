@@ -3,6 +3,10 @@
 Every update gets a new `0.x` version. The version also shows small in the mod's top bar.
 Newest first.
 
+## 0.9
+- Credits are just 7kcod now, everywhere (mod info, license, READMEs).
+- The code's package is now `dev.cod`. Nothing changes in game and your settings are kept.
+
 ## 0.8
 - Pumpkin blur: removes the carved pumpkin overlay (option to hide the powder snow frost too).
 - Boat map visibility: your map stays up on screen while you row a boat.

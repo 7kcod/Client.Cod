@@ -4,13 +4,13 @@
   "version": "${version}",
   "name": "pvp.cod",
   "description": "A PvP client as a mod: keystrokes, FPS/CPS and other HUD bits you can drag anywhere, low fire, clear water and lava, side shield, hitbox colours, zoom, skin and cape swapper, friends list, cod icons with an admin panel. pack.cod is built in.",
-  "authors": ["7kcod", "ENC Productions"],
+  "authors": ["7kcod"],
   "license": "MIT",
   "icon": "assets/packcod/icon.png",
   "environment": "client",
   "provides": ["packcod"],
   "entrypoints": {
-    "client": ["com.enc.packcod.PackCodClient", "com.enc.pvpcod.PvpCod"]
+    "client": ["dev.cod.packcod.PackCodClient", "dev.cod.pvpcod.PvpCod"]
   },
   "mixins": ["pvpcod.mixins.json"],
   "depends": {

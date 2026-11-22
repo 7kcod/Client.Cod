@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.enc.pvpcod.mixin",
+  "package": "dev.cod.pvpcod.mixin",
   "compatibilityLevel": "JAVA_21",
   "client": [
     "AttackMixin",

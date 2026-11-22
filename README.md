@@ -6,7 +6,7 @@
   <img alt="Minecraft" src="https://img.shields.io/badge/Minecraft-1.21.11-62B47A?style=for-the-badge">
   <img alt="Fabric" src="https://img.shields.io/badge/Fabric-0.18.1-DBD0B4?style=for-the-badge">
   <img alt="Java" src="https://img.shields.io/badge/Java-21-E8A33D?style=for-the-badge">
-  <img alt="Version" src="https://img.shields.io/badge/version-0.8-E8A33D?style=for-the-badge">
+  <img alt="Version" src="https://img.shields.io/badge/version-0.9-E8A33D?style=for-the-badge">
   <img alt="License" src="https://img.shields.io/badge/license-MIT-4FC3F7?style=for-the-badge">
 </p>
 
@@ -137,13 +137,13 @@ jars from the profile's `mods` folder and copies the new one in (put the repo fo
 ### Project layout
 
 ```
-src/main/java/com/enc/pvpcod/
+src/main/java/dev/cod/pvpcod/
 ├── PvpCod.java          entry point, keys, HUD hooks
 ├── module/              every module and its settings
 ├── ui/                  menu, settings, HUD editor, wardrobe, admin, previews
 ├── mixin/               the game hooks (fire, fog, outline, capes, tooltips, ...)
 ├── Pings.java · Tiers.java · Wardrobe.java · OtherCapes.java · ...
-src/main/java/com/enc/packcod/ui/PvpTheme.java   shares packs.cod's look
+src/main/java/dev/cod/packcod/ui/PvpTheme.java   shares packs.cod's look
 ```
 
 ## Changelog
@@ -152,7 +152,7 @@ See **[CHANGELOG.md](CHANGELOG.md)**. Every update gets a new `0.x` version.
 
 ## Credits
 
-Made by **7kcod** 🇧🇾 (solo dev) · ENC Productions
+Made by **7kcod** 🇧🇾 (solo dev)
 
 Tier data from [MCTiers](https://mctiers.com). Cape images from LabyMod and OptiFine's public cape services.
 Not affiliated with Mojang, Lunar Client, LabyMod, OptiFine or MCTiers.
