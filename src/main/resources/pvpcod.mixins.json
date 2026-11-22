@@ -1,0 +1,30 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.enc.pvpcod.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "AttackMixin",
+    "BlockOutlineMixin",
+    "ChatMixin",
+    "ContainerTextMixin",
+    "GameRendererAccess",
+    "GameRendererMixin",
+    "GuiMixin",
+    "HitboxMixin",
+    "ItemInHandMixin",
+    "LavaFogMixin",
+    "LightTextureMixin",
+    "MinecraftMixin",
+    "PlayerNameMixin",
+    "ScreenEffectMixin",
+    "ShulkerMixin",
+    "SkinMixin",
+    "TabListMixin",
+    "TotemMixin",
+    "WaterFogMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}

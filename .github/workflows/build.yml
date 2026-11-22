@@ -1,0 +1,29 @@
+name: Build
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: client.cod
+      # client.cod builds packs.cod into the same jar, so it needs packs.cod next to it
+      - uses: actions/checkout@v4
+        with:
+          repository: ${{ github.repository_owner }}/packs.cod
+          path: packs.cod
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+      - name: Build
+        working-directory: client.cod
+        run: chmod +x gradlew && ./gradlew build --no-daemon
+      - uses: actions/upload-artifact@v4
+        with:
+          name: client-cod
+          path: client.cod/build/libs/*.jar
