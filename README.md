@@ -18,6 +18,7 @@
 
 <p align="center">
   <a href="#features">Features</a> ·
+  <a href="https://github.com/7kcod/Client.Cod/releases/latest"><b>⬇ Download</b></a> ·
   <a href="#install">Install</a> ·
   <a href="#using-it">Using it</a> ·
   <a href="#building">Building</a> ·
@@ -93,7 +94,7 @@ Boxes snap to the edges, the middle and each other.
 ## Install
 
 1. Install [Fabric Loader](https://fabricmc.net/use/) for **1.21.11** and [Fabric API](https://modrinth.com/mod/fabric-api).
-2. Put `pvp-cod-<version>.jar` in your `mods` folder.
+2. Download `pvp-cod-<version>.jar` from **[Releases](https://github.com/7kcod/Client.Cod/releases/latest)** and put it in your `mods` folder.
 3. **Don't** also install the separate packs.cod jar; it's already inside. Two copies crash the game.
 
 ## Using it
